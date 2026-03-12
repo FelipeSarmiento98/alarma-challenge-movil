@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/colors_app.dart';
 import '../../utils/responsive_app.dart';
 
 class BackgroundImage extends StatelessWidget {

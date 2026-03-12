@@ -4,7 +4,6 @@ import '../../utils/colors_app.dart';
 import '../../utils/functions.dart';
 import '../../utils/responsive_app.dart';
 
-import '../general_widgets/poppins_text.dart';
 import '../reset_password_widgets/bottom_sheet_reset_password.dart';
 
 class ResetPasswordButton extends StatelessWidget {
