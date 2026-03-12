@@ -104,8 +104,17 @@ class _CreateAlarmPageState extends State<CreateAlarmPage> {
             icon: Icon(
               Icons.check,
               color: ColorsApp.secondaryColor,
-              size: ResponsiveApp.dSize( 24.0 )
-            )
+              size: ResponsiveApp.dSize( 24.0 ),
+              fontWeight: FontWeight.bold,
+              shadows: [
+                Shadow(
+                  color: ColorsApp.primaryColor,
+                  blurRadius: 4.0,
+                  offset: const Offset(0, 2),
+                )
+              ],
+            ),
+            
           )
         ],
       ),
